@@ -1,0 +1,32 @@
+{
+  "name": "clock1",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.1",
+    "@fitbit/sdk-cli": "^1.7.3",
+    "fitbit-sdk-types": "^6.0.2"
+  },
+  "fitbit": {
+    "appUUID": "7d155103-1961-43c1-a492-6071aa4481bb",
+    "appType": "clockface",
+    "appDisplayName": "Clock 1",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [
+      "access_user_profile",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}

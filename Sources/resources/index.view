@@ -1,0 +1,10 @@
+<svg>
+  <rect id="background" />
+  <svg id="steps-container">
+    <arc sweep-angle="360" opacity="0.3" />
+    <arc id="steps-arc" />
+    <image href="images/steps_36px.png" />
+    <text id="steps-text" />
+  </svg>
+  <text id="clock" />
+</svg>
